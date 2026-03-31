@@ -4,7 +4,7 @@ A practical notebook covering the key techniques used to extract meaningful feat
 
 ## Overview
 
-Raw audio is just a wave of numbers. To make it useful for machine learning, we need to extract **features** that describe the sound in a meaningful way. This notebook walks through the most important audio features used in real-world AI systems.
+Raw audio is just a wave of numbers. To make it useful for machine learning, we need to extract **features** that describe the sound in a meaningful way. This notebook walks through the most important audio features using **librosa**, fully compatible with Python 3.12+.
 
 ## Features Covered
 
@@ -21,20 +21,15 @@ Raw audio is just a wave of numbers. To make it useful for machine learning, we 
 
 ## Libraries Used
 
-- [`pyAudioAnalysis`](https://github.com/tyiannak/pyAudioAnalysis) — short-term & mid-term feature extraction
-- [`librosa`](https://librosa.org/) — spectral analysis, MFCC, chromagram, zero crossings
+- [`librosa`](https://librosa.org/) — all audio feature extraction
 - `matplotlib` — visualisation
-- `numpy` — numerical operations
+- `numpy` — numerical operations & mid-term feature aggregation
 - `sklearn` — normalisation
+- `plotly` — interactive plots
 
-## Real-World Applications
+## How to Run
 
-These features are the backbone of:
-- 🗣️ **Speech Recognition** (MFCC is used in Whisper, DeepSpeech)
-- 🎵 **Music Genre Classification**
-- 😊 **Emotion Detection from Voice**
-- 🔊 **Speaker Identification**
-- 🏭 **Industrial Sound Anomaly Detection**
-
-## Author
-Ali, AI & Data Science Student
+1. Clone the repo:
+```bash
+git clone https://github.com/YOUR_USERNAME/audio-feature-extraction.git
+cd audio-feature-extraction
