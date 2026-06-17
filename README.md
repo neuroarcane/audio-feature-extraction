@@ -29,4 +29,4 @@ These features are the backbone of:
 🔊 Speaker Identification
 🏭 Industrial Sound Anomaly Detection
 Author
-Ali — AI & Data Science Student
+Ali — NeuroArcane
